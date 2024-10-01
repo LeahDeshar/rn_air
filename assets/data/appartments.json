@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "lat": 37.7749,
+    "long": -122.4194,
+    "price": 150,
+    "title": "Cozy Studio in the Heart of San Francisco",
+    "numOfStars": 4.8,
+    "rating": 120,
+    "image": "https://images.unsplash.com/photo-1560185127-6a2ea39d202e"
+  },
+  {
+    "id": 2,
+    "lat": 37.7849,
+    "long": -122.4094,
+    "price": 200,
+    "title": "Modern Apartment with Bay Views",
+    "numOfStars": 4.6,
+    "rating": 85,
+    "image": "https://images.unsplash.com/photo-1600585151947-16d006cc7343"
+  },
+  {
+    "id": 3,
+    "lat": 37.7649,
+    "long": -122.4294,
+    "price": 180,
+    "title": "Charming Loft in Downtown San Francisco",
+    "numOfStars": 4.9,
+    "rating": 102,
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+  },
+  {
+    "id": 4,
+    "lat": 37.7549,
+    "long": -122.4394,
+    "price": 220,
+    "title": "Luxury Condo near Golden Gate Park",
+    "numOfStars": 4.7,
+    "rating": 67,
+    "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+  },
+  {
+    "id": 5,
+    "lat": 37.7949,
+    "long": -122.3994,
+    "price": 250,
+    "title": "Penthouse with Stunning City Views",
+    "numOfStars": 5.0,
+    "rating": 140,
+    "image": "https://images.unsplash.com/photo-1593082095068-4132e7104b27"
+  },
+  {
+    "id": 6,
+    "lat": 37.784,
+    "long": -122.429,
+    "price": 170,
+    "title": "Sunny One-Bedroom in Mission District",
+    "numOfStars": 4.5,
+    "rating": 93,
+    "image": "https://images.unsplash.com/photo-1600585151494-329f7e57689d"
+  },
+  {
+    "id": 7,
+    "lat": 37.764,
+    "long": -122.419,
+    "price": 130,
+    "title": "Chic Apartment near AT&T Park",
+    "numOfStars": 4.3,
+    "rating": 56,
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+  },
+  {
+    "id": 8,
+    "lat": 37.774,
+    "long": -122.449,
+    "price": 140,
+    "title": "Comfortable Studio with Garden Access",
+    "numOfStars": 4.1,
+    "rating": 80,
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+  },
+  {
+    "id": 9,
+    "lat": 37.7845,
+    "long": -122.4095,
+    "price": 195,
+    "title": "Spacious Two-Bedroom in Nob Hill",
+    "numOfStars": 4.9,
+    "rating": 110,
+    "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb"
+  },
+  {
+    "id": 10,
+    "lat": 37.7545,
+    "long": -122.4195,
+    "price": 160,
+    "title": "Bright Loft with Rooftop Access",
+    "numOfStars": 4.4,
+    "rating": 74,
+    "image": "https://images.unsplash.com/photo-1530731141654-5993c3016c77"
+  }
+]
