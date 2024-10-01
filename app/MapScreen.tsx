@@ -2,6 +2,8 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import appartments from "@/assets/data/appartments.json";
+import CustomMarker from "@/components/map/CustomMarker";
+import AppListItem from "@/components/map/AppListItem";
 const MapScreen = () => {
   return (
     <View style={styles.container}>
@@ -15,28 +17,10 @@ const MapScreen = () => {
         }}
       >
         {appartments?.map((app) => (
-          <Marker
-            key={app.id}
-            coordinate={{
-              latitude: app.lat,
-              longitude: app.long,
-            }}
-            title={app.title}
-          >
-            <View
-              style={{
-                backgroundColor: "white",
-                padding: 5,
-                paddingHorizontal: 18,
-                borderWidth: 1,
-                borderColor: " gray",
-                borderRadius: 20,
-              }}
-            >
-              <Text style={{ fontFamily: "InterBold" }}>${app.price}</Text>
-            </View>
-          </Marker>
+          <CustomMarker key={app.id} app={app} />
         ))}
+
+        <AppListItem app={appartments[0]} />
       </MapView>
     </View>
   );
@@ -47,8 +31,6 @@ export default MapScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
   },
   map: {
     width: "100%",
