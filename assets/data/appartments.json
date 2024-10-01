@@ -7,7 +7,8 @@
     "title": "Cozy Studio in the Heart of San Francisco",
     "numOfStars": 4.8,
     "rating": 120,
-    "image": "https://images.unsplash.com/photo-1483095348487-53dbf97d8d5b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "https://images.unsplash.com/photo-1483095348487-53dbf97d8d5b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A warm and cozy studio located in the vibrant downtown area of San Francisco. Perfect for solo travelers or couples looking for a central stay."
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "title": "Modern Apartment with Bay Views",
     "numOfStars": 4.6,
     "rating": 85,
-    "image": "https://images.unsplash.com/photo-1600585151947-16d006cc7343"
+    "image": "https://images.unsplash.com/photo-1600585151947-16d006cc7343",
+    "description": "A sleek, modern apartment with breathtaking views of the San Francisco Bay. Ideal for business travelers and tourists who love a scenic stay."
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "title": "Charming Loft in Downtown San Francisco",
     "numOfStars": 4.9,
     "rating": 102,
-    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+    "description": "Stay in a beautiful loft that combines modern amenities with the historic charm of San Francisco. Located near key attractions, shopping, and dining options."
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "title": "Luxury Condo near Golden Gate Park",
     "numOfStars": 4.7,
     "rating": 67,
-    "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+    "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+    "description": "This luxury condo offers upscale living near Golden Gate Park. Enjoy peaceful walks, beautiful views, and quick access to the best of San Francisco."
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "title": "Penthouse with Stunning City Views",
     "numOfStars": 5.0,
     "rating": 140,
-    "image": "https://images.unsplash.com/photo-1593082095068-4132e7104b27"
+    "image": "https://images.unsplash.com/photo-1593082095068-4132e7104b27",
+    "description": "Experience luxury in this stunning penthouse with panoramic city views. Ideal for travelers who want a high-end stay in the heart of San Francisco."
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "title": "Sunny One-Bedroom in Mission District",
     "numOfStars": 4.5,
     "rating": 93,
-    "image": "https://images.unsplash.com/photo-1600585151494-329f7e57689d"
+    "image": "https://images.unsplash.com/photo-1600585151494-329f7e57689d",
+    "description": "A sunny and spacious one-bedroom located in the vibrant Mission District. Perfect for couples or solo travelers looking to explore the city's artistic side."
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "title": "Chic Apartment near AT&T Park",
     "numOfStars": 4.3,
     "rating": 56,
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+    "description": "This chic apartment is located near AT&T Park, making it the perfect stay for sports enthusiasts and those looking to enjoy San Francisco's nightlife."
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "title": "Comfortable Studio with Garden Access",
     "numOfStars": 4.1,
     "rating": 80,
-    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+    "description": "Enjoy a tranquil stay in this comfortable studio with access to a lovely garden. Perfect for those who want a peaceful retreat in the city."
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "title": "Spacious Two-Bedroom in Nob Hill",
     "numOfStars": 4.9,
     "rating": 110,
-    "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb"
+    "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+    "description": "A spacious two-bedroom apartment located in the prestigious Nob Hill area. Ideal for families or groups of friends looking to explore the city together."
   },
   {
     "id": 10,
@@ -97,6 +106,7 @@
     "title": "Bright Loft with Rooftop Access",
     "numOfStars": 4.4,
     "rating": 74,
-    "image": "https://images.unsplash.com/photo-1530731141654-5993c3016c77"
+    "image": "https://images.unsplash.com/photo-1530731141654-5993c3016c77",
+    "description": "A bright and stylish loft with access to a rooftop terrace. Enjoy beautiful views and easy access to San Francisco's top attractions."
   }
 ]
