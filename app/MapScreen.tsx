@@ -1,11 +1,20 @@
-import { StyleSheet, Text, View } from "react-native";
-import React, { useState } from "react";
+import { FlatList, StyleSheet, Text, View } from "react-native";
+import React, { useCallback, useMemo, useRef, useState } from "react";
 import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import appartments from "@/assets/data/appartments.json";
 import CustomMarker from "@/components/map/CustomMarker";
 import AppListItem from "@/components/map/AppListItem";
+import BottomSheet, { BottomSheetView } from "@gorhom/bottom-sheet";
+
 const MapScreen = () => {
   const [selectedAppt, setSelectedAppt] = useState(null);
+  const snapPoints = useMemo(() => ["25%", "50%", "90%"], []);
+  const bottomSheetRef = useRef<BottomSheet>(null);
+
+  // callbacks
+  const handleSheetChanges = useCallback((index: number) => {
+    console.log("handleSheetChanges", index);
+  }, []);
   return (
     <View
     // style={{
@@ -28,17 +37,35 @@ const MapScreen = () => {
             onPress={() => setSelectedAppt(app)}
           />
         ))}
-        <View
-          style={{
-            position: "absolute",
-            bottom: 80,
-            left: 11,
-            // width: "100%",
-          }}
-        >
-          {selectedAppt && <AppListItem app={selectedAppt} />}
-        </View>
       </MapView>
+      <View
+        style={{
+          position: "absolute",
+          bottom: 80,
+          left: 11,
+          // width: "100%",
+        }}
+      >
+        {selectedAppt && <AppListItem app={selectedAppt} />}
+      </View>
+
+      <BottomSheet
+        index={1}
+        snapPoints={snapPoints}
+        ref={bottomSheetRef}
+        onChange={handleSheetChanges}
+        enablePanDownToClose
+      >
+        <BottomSheetView style={styles.contentContainer}>
+          <FlatList
+            contentContainerStyle={{
+              paddingVertical: 20,
+            }}
+            data={appartments}
+            renderItem={({ item }) => <AppListItem app={item} />}
+          />
+        </BottomSheetView>
+      </BottomSheet>
     </View>
   );
 };
@@ -52,5 +79,9 @@ const styles = StyleSheet.create({
   map: {
     width: "100%",
     height: "100%",
+  },
+  contentContainer: {
+    flex: 1,
+    alignItems: "center",
   },
 });

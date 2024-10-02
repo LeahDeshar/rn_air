@@ -28,6 +28,8 @@ const AppListItem = ({ app }) => {
             width: 150,
             height: "auto",
             resizeMode: "cover",
+            borderTopLeftRadius: 20,
+            borderBottomLeftRadius: 20,
           }}
         />
         <View
@@ -84,9 +86,15 @@ const styles = StyleSheet.create({
     // top: 550,
     // right: 10,
     // left: 10,
+    margin: 10,
     borderRadius: 20,
     flexDirection: "row",
-    overflow: "hidden",
+    shadowColor: "#00000056",
+    shadowOffset: { width: 5, height: 2 },
+    shadowOpacity: 0.5,
+    shadowRadius: 5,
+    elevation: 5,
+    // overflow: "hidden",
   },
   title: {
     fontWeight: "bold",
