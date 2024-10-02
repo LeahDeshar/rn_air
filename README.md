@@ -2,9 +2,4 @@
 
 ## Demo Video
 
-<iframe width="560" height="315" src="./o.mp4" frameborder="0" allowfullscreen></iframe>
-
-<video width="320" height="240" controls>
-  <source src="o.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![alt](oo.gif)
