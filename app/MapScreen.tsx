@@ -1,12 +1,17 @@
 import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import appartments from "@/assets/data/appartments.json";
 import CustomMarker from "@/components/map/CustomMarker";
 import AppListItem from "@/components/map/AppListItem";
 const MapScreen = () => {
+  const [selectedAppt, setSelectedAppt] = useState(null);
   return (
-    <View style={styles.container}>
+    <View
+    // style={{
+    //   flex: 1,
+    // }}
+    >
       <MapView
         style={styles.map}
         initialRegion={{
@@ -17,10 +22,22 @@ const MapScreen = () => {
         }}
       >
         {appartments?.map((app) => (
-          <CustomMarker key={app.id} app={app} />
+          <CustomMarker
+            key={app.id}
+            app={app}
+            onPress={() => setSelectedAppt(app)}
+          />
         ))}
-
-        <AppListItem app={appartments[0]} />
+        <View
+          style={{
+            position: "absolute",
+            bottom: 80,
+            left: 11,
+            // width: "100%",
+          }}
+        >
+          {selectedAppt && <AppListItem app={selectedAppt} />}
+        </View>
       </MapView>
     </View>
   );
@@ -29,9 +46,9 @@ const MapScreen = () => {
 export default MapScreen;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
+  // container: {
+  //   flex: 1,
+  // },
   map: {
     width: "100%",
     height: "100%",

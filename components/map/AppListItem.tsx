@@ -27,10 +27,7 @@ const AppListItem = ({ app }) => {
           style={{
             width: 150,
             height: "auto",
-            // aspectRatio: 1,
             resizeMode: "cover",
-            //   borderTopLeftRadius: 20,
-            //   borderBottomLeftRadius: 20,
           }}
         />
         <View
@@ -83,10 +80,10 @@ export default AppListItem;
 const styles = StyleSheet.create({
   card: {
     backgroundColor: "white",
-    position: "absolute",
-    bottom: 80,
-    right: 10,
-    left: 10,
+    // position: "absolute",
+    // top: 550,
+    // right: 10,
+    // left: 10,
     borderRadius: 20,
     flexDirection: "row",
     overflow: "hidden",
