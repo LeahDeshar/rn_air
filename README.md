@@ -2,6 +2,10 @@
 
 ## Demo 👇
 
-[demo](o.mp4)
+![alt](f1.png)
 
-![alt](oo.gif)
+<div style="text-align: center;">
+  <img src="o1.gif" 
+  style="border-radius: 15px;"
+  height="320">
+</div>
